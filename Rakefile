@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "settings"
   gem.homepage = "http://github.com/andyisnowskynet/settings"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A special hash for application-wide settings.}
+  gem.description = %Q{Add your application-wide settings into a yaml file for ease of use. Created by Ben Alavi, adapted by Andy Schmidt.}
   gem.email = "andy@thisislabcoat.com"
-  gem.authors = ["Andy Schmidt"]
+  gem.authors = ["Andy Schmidt, Ben Alavi"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
